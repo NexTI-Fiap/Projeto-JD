@@ -42,7 +42,7 @@ O sistema de monitoramento é responsável pela coleta de dados sobre a localiza
 - **Django (Python Framework)**: Gerencia o servidor backend, processando e armazenando os dados de localização recebidos do ESP32.
 - **Python/C++**: A lógica de comunicação entre o ESP32 e o servidor é escrita em Python e C++, possibilitando o envio dos dados de localização via WiFi.
 
-### Sistema de Aplicação Web para Operadores (Desenvolvimento 2)
+### Sistema de Aplicação Web para Operadores
 
 #### Arquitetura do Sistema
 
