@@ -31,7 +31,7 @@ O sistema de monitoramento é responsável pela coleta de dados sobre a localiza
 #### Funcionamento
 
 <h1 align="center">
-    <img alt="Logo_JD" title="Logo_JD" src=".gitignore/jd_banner" width="700"/>
+    <img alt="Mapa" title="Mapa" src="assets/mapa.png" width="700"/>
 </h1>
 
 
