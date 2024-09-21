@@ -53,6 +53,16 @@ A aplicação web é a interface que os operadores utilizam para visualizar e in
 
 #### Funcionamento
 
+
+
+Logo a baixo, segue um vídeo de apresentação do site.
+
+<h1 align="center">
+    <a href="https://www.youtube.com/watch?v=XZ1evdnIQW0">
+        <img src="https://img.youtube.com/vi/XZ1evdnIQW0/maxresdefault.jpg" alt="Assista ao vídeo" width="500" height="auto">
+    </a>
+</h1>
+
 - **Interface Gráfica (GUI)**: Sempre que um operador precisar gerenciar ou visualizar os carrinhos, ele abrirá o aplicativo gráfico. O aplicativo foi desenvolvido com a biblioteca **Tkinter**, que permite criar janelas, botões, e tabelas fáceis de usar.
 
   - **Botão "Solicitar"**: Este botão é usado para registrar solicitações de movimentação. Quando o operador clica no botão, o sistema responde registrando a solicitação.
