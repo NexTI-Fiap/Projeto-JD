@@ -58,8 +58,8 @@ A aplicação web é a interface que os operadores utilizam para visualizar e in
 Logo a baixo, segue um vídeo de apresentação do site.
 
 <h1 align="center">
-    <a href="https://youtube/yRGiD2jQiBE?si=VzsDXFpOg9GFavte">
-        <img src="https://img.youtube/yRGiD2jQiBE?si=VzsDXFpOg9GFavte/maxresdefault.jpg" alt="Assista ao vídeo" width="500" height="auto">
+    <a href="https://www.youtube.com/watch?v=yRGiD2jQiBE">
+        <img src="https://img.youtube.com/watch?v=yRGiD2jQiBE/maxresdefault.jpg" alt="Assista ao vídeo" width="500" height="auto">
     </a>
 </h1>
 
