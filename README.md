@@ -59,7 +59,7 @@ Logo a baixo, segue um vídeo de apresentação do site.
 
 <h1 align="center">
     <a href="https://www.youtube.com/watch?v=yRGiD2jQiBE">
-        <img src="https://img.youtube.com/watch?v=yRGiD2jQiBE/maxresdefault.jpg" alt="Assista ao vídeo" width="500" height="auto">
+        <img src="https://img.youtube.com/yRGiD2jQiBE/maxresdefault.jpg" alt="Assista ao vídeo" width="500" height="auto">
     </a>
 </h1>
 
