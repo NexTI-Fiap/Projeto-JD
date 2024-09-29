@@ -73,8 +73,9 @@ Logo a baixo, segue um vídeo de apresentação do site.
 
 #### Tecnologias Envolvidas
 
-1. **Tkinter**: É uma biblioteca padrão do Python usada para construir a interface gráfica (GUI). Ela permite que o sistema mostre janelas interativas com botões e tabelas, tornando a interação do operador intuitiva.
-2. **Python**: A aplicação web foi construída em Python. Além de ser usada no backend (com Django), Python também controla a interface gráfica através da biblioteca Tkinter.
+1. **HTML**: Linguagem de marcação usada para estruturar o conteúdo de páginas web, ela define a hierarquia e o layout de uma página (títulos, parágrafos, imagens, links, etc.).
+2. **CSS**: Linguagem de estilo usada para controlar a aparência de páginas web, ela é responsável por estiliza o HTML, controlando layout, cores, fontes, espaçamentos, e outros aspectos visuais.
+3. **PHP**: Linguagem de programação do lado do servidor usada para criar conteúdo dinâmico em páginas web, gera HTML dinamicamente, conecta-se a bancos de dados, e manipula entradas de usuários.
 
 ---
 
