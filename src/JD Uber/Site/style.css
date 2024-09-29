@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Começo style-cadastro */
+.conteudo-pagina-cadastro{
+    background-color: Gainsboro;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2% 0.5% 2% 2%;
+    gap: 1%;
+}
+.col-imagem{
+    width: 50%;
+}
+.col-imagem img{
+    box-shadow: black 10px 10px 40px;
+}
+.col-form-cadastro{
+    width: 50%;
+}
+.cadastro-title-content{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 4%;
+    border-radius: 15px 15px 0px 0px;
+}
+.cadastro-title{
+    border-bottom: #06820b solid 3px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn-pagina-cadastro-para-login{
+    margin-left: auto;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn-pagina-cadastro-para-login :hover{
+    color: #06820b;
+}
+.btn-pagina-cadastro-para-login a{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.form-cadastro{
+    background-color: silver;
+    width: 85%;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    padding: 4%;
+}
+.form-cadastro label {
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-cadastro-nome input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.form-cadastro-email input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.form-cadastro-password input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.form-cadastro-password-confirm input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.btn-cadastro-continuar{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-cadastro-continuar input{
+    color: black;
+    background-color: #06820b;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: red solid 0px;
+}
+.btn-cadastro-continuar :hover{
+    background-color: gainsboro;
+    color: #06820b;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    /* Estilos para telas pequenas */
+.col-imagem{
+    display: none;
+}
+.col-form-cadastro{
+    margin: auto;
+    width: 95%;
+}
+.conteudo-pagina-cadastro{
+    gap: 0%;
+    padding: 4% 0% 4% 0%;
+}
+.form-cadastro label{
+    font-size: 18px;
+}
+.form-cadastro-email input{
+    width: 85%;
+}
+.form-cadastro-password input{
+    width: 85%;
+}
+.form-cadastro-password-confirm input{
+    width: 85%;
+}
+.form-cadastro-nome input{
+    width: 85%;
+}
+.cadastro-title{
+    font-size: 22px;
+}
+.btn-pagina-cadastro-para-login a{
+    font-size: 22px;
+}
+.btn-cadastro-continuar input{
+    font-size: 22px;
+}
+}
+/* Fim style-cadastro */
+
+
+
+/* Começo style-index-logado */
+.index-logado-imagem-fundo-content{
+    display: flex;
+}
+.index-logado-imagem-fundo{
+    margin: auto;
+}
+.index-logado-mensage-content{
+    display: flex;
+}
+.index-logado-mensage{
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* Fim style-index-logado */
+
+
+
+/* Começo style-index-nao-logado */
+.index-nao-logado-imagem-fundo-content{
+    display: flex;
+}
+.index-nao-logado-imagem-fundo{
+    margin: auto;
+}
+.index-nao-logado-mensage-content{
+    display: flex;
+}
+.index-nao-logado-mensage{
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+} 
+.index-nao-logado-btn-content{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 80px;
+}
+.index-nao-logado-cadastrar-btn{
+    background-color: #06820b;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    width: 150px;
+}
+.index-nao-logado-cadastrar-btn :hover{
+    color: yellow;
+}
+.index-nao-logado-logar-btn{
+    background-color: #06820b;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    width: 150px;
+}
+.index-nao-logado-logar-btn :hover{
+    color: yellow;
+}
+/* Fim-style-index-nao-logado */
+
+
+
+/* Comeco-style-login */
+.conteudo-pagina-login{
+    background-color: Gainsboro;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2% 0.5% 2% 2%;
+    gap: 1%;
+}
+.col-imagem{
+    width: 50%;
+}
+.col-imagem img{
+    box-shadow: black 10px 10px 40px;
+}
+.col-form-login{
+    width: 50%;
+}
+.login-title-content{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 4%;
+    border-radius: 15px 15px 0px 0px;
+}
+.login-title{
+    border-bottom: #06820b solid 3px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn-pagina-login-para-cadastro{
+    margin-left: auto;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn-pagina-login-para-cadastro :hover{
+    color: #06820b;
+}
+.btn-pagina-login-para-cadastro a{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.form-login{
+    background-color: silver;
+    width: 85%;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    padding: 4%;
+}
+.form-login label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-login-email input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.form-login-password input{
+    box-shadow: black 3px 3px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 85%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.btn-login-continuar{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-login-continuar input{
+    color: black;
+    background-color: #06820b;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: red solid 0px;
+}
+.btn-login-continuar :hover{
+    background-color: gainsboro;
+    color: #06820b;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    /* Estilos para telas pequenas */
+.col-imagem{
+    display: none;
+}
+.col-form-login{
+    margin: auto;
+    width: 95%;
+}
+.conteudo-pagina-login{
+    gap: 0%;
+    padding: 4% 0% 4% 0%;
+}
+.form-login label{
+    font-size: 18px;
+}
+.form-login-email input{
+    width: 85%;
+}
+.form-login-password input{
+    width: 85%;
+}
+.login-title{
+    font-size: 22px;
+}
+.btn-pagina-login-para-cadastro a{
+    font-size: 22px;
+}
+.btn-login-continuar input{
+    font-size: 22px;
+}
+}
+/* Fim-style-login */
+
+
+
+/* Comeco-style-map-page-solicitar */
+#mapa {
+    position: relative;
+    width: 800px; /* Ajuste a largura conforme necessário */
+    height: 600px; /* Ajuste a altura conforme necessário */
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-image: url('imagens/mapa.jpg'); /* Substitua pelo link para a sua imagem do mapa */
+    background-size: cover;
+    background-position: center;
+}
+#carrinho1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('imagens/carrinho.jpeg'); /* Substitua pelo caminho para sua imagem de carrinho */
+    background-size: cover;
+}
+#carrinho2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('imagens/carrinho.jpeg'); /* Substitua pelo caminho para sua imagem de carrinho */
+    background-size: cover;
+}
+#inputs1 {
+    margin-top: 20px;
+}
+#inputs2 {
+    margin-top: 20px;
+}
+.inputs-content{
+    text-align: center;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+/* Fim-style-map-page-solicitar */
+
+/* Comeco-style-map-page-pedidos */
+.btn-concluir-pedido button{
+    border: red solid 0px;
+    background-color: #06820b;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn-concluir-pedido button p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-concluir-pedido button :hover{
+    color: yellow;
+}
+/* Fim-style-map-page-pedidos */
+
+
+/* Comeco-style-menu-logado */
+menu{
+    background-color: #06820b;
+    width: 100%;
+}
+.menu-logado-content{
+    display: flex;
+    width: 85%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+
+}
+.menu-logado-btn-title{
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 5px;
+    border-bottom: yellow solid 3px;
+}
+.menu-logado-btn-title-jd a{
+    color: yellow;
+}
+.hello-user-content{
+    display: flex;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 5px;
+}
+.menu-bar-space{
+    background-color: #056708;
+    height: 50px;
+}
+.menu-bar-content{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+.menu-bar-content ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100%;
+    align-items: center;
+}
+.menu-bar-content li{
+    border-bottom: yellow solid 3px;
+}
+.menu-bar-content li :hover{
+    color: yellow;
+}
+/* Fim-style-menu-logado */
+
+
+/* Comeco-style-menu-nao-logado */
+.menu-logado-content{
+    display: flex;
+    width: 85%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+
+}
+.menu-logado-btn-title{
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 5px;
+    border-bottom: yellow solid 3px;
+}
+.menu-logado-btn-title-jd a{
+    color: yellow;
+}
+.menu-nao-logado-btns-content{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    gap: 50px;
+}
+.menu-nao-logado-cadastrar-btn{
+    border-bottom: yellow solid 3px;
+}
+.menu-nao-logado-cadastrar-btn a :hover{
+    color: yellow;
+}
+.menu-nao-logado-logar-btn{
+    border-bottom: yellow solid 3px;
+}
+.menu-nao-logado-logar-btn a :hover{
+    color: yellow;
+}
+/* Fim-style-menu-nao-logado */
+
+
+
+/* Começo-style-tabela-solicitar */
+.tabela-solicitar{
+    width: 85%;
+    margin: auto;
+}
+.tabela-solicitar table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela-solicitar thead th{
+    font-size: 20px;
+    font-weight: 600;
+}
+.tabela-solicitar tbody th{
+    font-size: 15px;
+}
+
+.tabela-solicitar th, td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+
+.tabela-solicitar th {
+    background-color: #f4f4f4;
+}
+
+.tabela-solicitar tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-solicitar tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabela-solicitar a {
+    text-decoration: none;
+}
+.tabela-solicitar button {
+    border: black solid 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600; 
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tabela-solicitar button :hover{
+    color: red;
+}
+
+.material-symbols-outlined {
+    font-size: 25px;
+    color: #007BFF; /* Azul para o ícone */
+}
+/* Fim-style-tabela-solicitar */
+
+
+
+/* Começo-style-tabela-pedidos */
+.tabela-pedidos{
+    width: 85%;
+    margin: auto;
+}
+.tabela-pedidos table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela-pedidos thead th{
+    font-size: 20px;
+    font-weight: 600;
+}
+.tabela-pedidos tbody th{
+    font-size: 15px;
+}
+
+.tabela-pedidos th, td {
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+
+.tabela-pedidos th {
+    background-color: #f4f4f4;
+}
+
+.tabela-pedidos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-pedidos tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabela-pedidos button {
+    border: black solid 0px;
+    background-color: #06820b;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600; 
+    cursor: pointer;
+}
+#concluir-pedido button{
+    background-color: transparent;
+    padding: 0px;
+}
+
+.material-symbols-outlined {
+    font-size: 25px;
+    color: #007BFF; /* Azul para o ícone */
+}
+/* Fim-style-tabela-pedidos */
+
+
+
+/* Correção de estilos */
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Fim-Correção de estilos */
