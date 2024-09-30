@@ -63,7 +63,7 @@ Logo a baixo, segue um vídeo de apresentação do site.
     </a>
 </h1>
 
-- **Interface Gráfica (GUI)**: Sempre que um operador precisar gerenciar ou visualizar os carrinhos, ele abrirá o aplicativo gráfico. O aplicativo foi desenvolvido com a biblioteca **Tkinter**, que permite criar janelas, botões, e tabelas fáceis de usar.
+- **Interface Gráfica (GUI)**: Sempre que um operador precisar gerenciar ou visualizar os carrinhos, ele abrirá o site.
 
   - **Botão "Solicitar"**: Este botão é usado para registrar solicitações de movimentação. Quando o operador clica no botão, o sistema responde registrando a solicitação.
   
