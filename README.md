@@ -88,3 +88,36 @@ A aplicação entrega os seguintes resultados:
 
 - A localização em tempo real do carrinho plataforma é mostrada em um mapa na interface web.
 - Os dados de localização são atualizados a cada X segundos, permitindo um monitoramento preciso.
+
+## Testes de Desempenho
+
+### Definição da Ferramenta de Teste
+
+Para avaliar o desempenho do sistema de localização WiFi no ESP32, foram escolhidos dois testes: **Precisão de Localização** e **Tempo de Resposta**.
+
+1. **Teste de Precisão de Localização**: Esse teste captura os valores de RSSI de três pontos de acesso WiFi conhecidos e utiliza trilateração para estimar a posição de um dispositivo alvo. O objetivo é calcular o erro de posicionamento em relação à posição real, medindo a precisão da localização.
+
+2. **Teste de Tempo de Resposta**: Esse teste mede o intervalo de tempo entre as leituras de RSSI do ESP32, registrando a velocidade e consistência de resposta para cenários de rastreamento em tempo real. Os tempos de resposta entre cada leitura são calculados e exibidos em milissegundos.
+
+### Evidências de Testes
+
+#### Teste de Precisão de Localização
+Abaixo estão os valores de RSSI e as posições estimadas para diferentes localizações de teste do dispositivo alvo.
+
+![image](https://github.com/user-attachments/assets/4c576667-4821-4ed9-9337-3c6714d1574b)
+
+### Discussão dos Resultados
+
+#### Teste de Precisão de Localização
+Os resultados indicam que o erro de posicionamento médio é de aproximadamente 2.0 metros. A precisão variou dependendo da intensidade do sinal e da proximidade dos pontos de acesso, com maior precisão quando o dispositivo está mais próximo de um AP.
+
+#### Teste de Tempo de Resposta
+O tempo de resposta médio foi de 1000 ms, mostrando que o ESP32 é capaz de capturar as variações de sinal em intervalos consistentes. Essa velocidade é adequada para aplicações de rastreamento em tempo real, mas pode ser otimizada com melhorias de firmware e intervalos de amostragem mais curtos.
+
+
+### Soluções Futuras
+
+Para aprimorar os resultados dos testes, algumas melhorias podem ser implementadas no futuro:
+
+- **Precisão de Localização**: Implementar filtros de sinal (ex.: filtro de Kalman) para reduzir a variação do RSSI e obter uma estimativa de posição mais estável.
+- **Tempo de Resposta**: Reduzir o intervalo de amostragem para aumentar a taxa de captura de sinal, possibilitando um rastreamento ainda mais ágil.
