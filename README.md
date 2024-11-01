@@ -99,6 +99,35 @@ Para avaliar o desempenho do sistema de localização WiFi no ESP32, foram escol
 
 2. **Teste de Tempo de Resposta**: Esse teste mede o intervalo de tempo entre as leituras de RSSI do ESP32, registrando a velocidade e consistência de resposta para cenários de rastreamento em tempo real. Os tempos de resposta entre cada leitura são calculados e exibidos em milissegundos.
 
+## Metodologia
+
+### Teste 1: Precisão de Localização
+
+Este teste visa verificar o quão próximo o ESP32 consegue identificar a posição de um ativo (um dispositivo com WiFi) usando triangulação. 
+
+1. **Ambiente Controlado**: Escolha uma área onde seja possível colocar o ESP32 e os pontos de acesso WiFi em locais fixos e bem definidos. Anote as posições exatas (em coordenadas x, y, e possivelmente z).
+
+2. **Configuração dos Pontos de Acesso (APs)**: Coloque pelo menos três APs em posições fixas e configure o ESP32 para capturar os sinais RSSI (Received Signal Strength Indicator) de cada um.
+
+3. **Cálculo da Triangulação**: Utilize as leituras RSSI para aplicar uma fórmula de triangulação (temos opções como trilateração usando RSSI, para aproximar a localização). O código será implementado para que o ESP32 faça as medições e devolva as coordenadas estimadas.
+
+4. **Medições e Comparações**: Coloque o ativo em diferentes posições conhecidas e colete os valores de localização estimada para comparar com as coordenadas reais.
+
+5. **Análise de Precisão**: Calcule o erro médio entre as posições reais e as posições estimadas (Erro de Posicionamento).
+
+### Teste 2: Tempo de Resposta
+
+Este teste verifica quanto tempo o ESP32 leva para capturar uma mudança de sinal e retornar os dados de localização.
+
+1. **Configuração do Tempo de Amostragem**: Configure o ESP32 para amostrar as leituras de sinal a intervalos regulares (ex.: a cada 100 ms ou 500 ms).
+
+2. **Implementação de Teste de Latência**: Configure o código para registrar o timestamp (em milissegundos) a cada captura de sinal. O código será ajustado para calcular o tempo entre as leituras e gerar uma média do tempo de resposta.
+
+3. **Coleta de Dados**: Execute o teste em uma área controlada e colete dados durante um período determinado, registrando o tempo entre cada leitura.
+
+4. **Análise de Resultados**: Calcule o tempo médio de resposta e a variabilidade (desvio padrão) para determinar a consistência.
+   
+
 ### Evidências de Testes
 
 #### Teste de Precisão de Localização
